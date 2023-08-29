@@ -8,6 +8,7 @@ body{
     -webkit-text-fill-color: white;
     -webkit-text-stroke: 2px black;
     margin-bottom: 0px;
+    margin-top: 10px;
 }
 
 .parrafo1{
@@ -15,4 +16,20 @@ body{
     text-decoration: underline;
     text-align: center;
     
+}
+
+.pastadura{
+    height: 400px;
+    margin-left: 150px;
+    margin-top: 5px;
+}
+
+.pastablanda{
+    height: 400px;
+    margin-left: 150px;
+}
+
+.marquee{
+    font-size: 80px;
+    margin-top: 5px;
 }

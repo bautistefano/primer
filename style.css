@@ -1,24 +1,42 @@
 @media only screen and (max-width: 992px){
     
-    .titulo{
-        margin: auto;
-        font-size: 8vw;
-    }
-    
-      
     .productos{
         text-align: center;
         margin: auto;
         height: 27vw;
-        border-radius: 8px;
+        border-radius: 8px; 
     }
 
+   
 }
 
     body{
         background-color:#ffffbf;
         margin: 0px;    
     }
+    
+    .flex-container{
+        display: flex;  
+        align-items: center;
+        margin-bottom: 20px;
+        background-color: #ce9e5b;
+        -webkit-text-fill-color: #e3b520; 
+        -webkit-text-stroke: 2px black;
+        position: sticky;
+        
+    }
+    
+    .tradicion{
+        font-size: 8vw;
+        margin: 0;
+    }
+
+    #logo{
+        height:  8vw;
+        
+    }
+    
+    
     
     .fotosnav{
         height: 22vw;
@@ -30,16 +48,12 @@
     }
     
     .header{
-        background-color: #ce9e5b;
-        -webkit-text-fill-color: #e3b520; 
-        -webkit-text-stroke: 2px black;
-        display: flex;
-        position: sticky;
-        top: 0;
+        
     }
     
     
     .carrusel{
+        
         text-align: center;
         margin: auto;
 
@@ -63,6 +77,12 @@
         height: 27vw;
         border-radius: 8px;
     }
+
+    .containersubmenu{
+        justify-content: space-between;
+    }
+    
+      
     
   
 

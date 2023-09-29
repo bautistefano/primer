@@ -16,10 +16,11 @@
     }
     
     .flex-container{
+        width: 100vw;
         display: flex;  
         align-items: center;
         margin-bottom: 20px;
-        background-color: #ce9e5b;
+        background-color: #ebae2c;
         -webkit-text-fill-color: #e3b520; 
         -webkit-text-stroke: 2px black;
         position: sticky;
@@ -29,11 +30,12 @@
     .tradicion{
         font-size: 8vw;
         margin: 0;
+        font-family: 'EB Garamond', serif;
     }
 
     #logo{
         height:  8vw;
-        
+        margin-right: 6vw;
     }
     
     
@@ -42,22 +44,6 @@
         height: 22vw;
     }
 
-    .titulo{
-        margin: auto;
-        font-size: 75px;
-    }
-    
-    .header{
-        
-    }
-    
-    
-    .carrusel{
-        
-        text-align: center;
-        margin: auto;
-
-    }
 
     #Logo{
         height: 100px;
@@ -76,12 +62,52 @@
         margin: auto;
         height: 27vw;
         border-radius: 8px;
+        margin-bottom: 25px;
     }
 
     .containersubmenu{
         justify-content: space-between;
     }
     
+    .custom-carousel {
+        width: 25%; 
+        height: auto; 
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    .columna {
+        background-color: #ebae2c; 
+        padding: 10px; /* Espaciado interno de 10px */
+        border-radius: 5px; /* Bordes redondeados */
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+        cursor: pointer; /* Cambia el cursor al pasar el ratón */
+        transition: background-color 0.3s; /* Transición suave para el cambio de color de fondo */
+        margin-bottom: 20px; /* Espacio entre las columnas */
+        /* padding: 10px;  */
+        /* Relleno interno en cada columna */
+        border: 0.5px solid #ddd;
+    }
+
+    /* Cambia el color de fondo al pasar el ratón sobre los elementos */
+    .columna:hover {
+        background-color: #d47a12; /* Cambia el fondo al pasar el ratón */
+        color: #fff; /* Cambia el color de texto a blanco */
+    }   
+    
+    .footer{
+        margin-top: 15px;
+    }
+
+    .container{
+        padding: 0px;
+        min-width: 100vw!important;
+        margin: 0px;
+    }
+
+    .alberto{
+        margin: 0px;
+    }
       
     
   

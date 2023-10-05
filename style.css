@@ -7,6 +7,20 @@
         border-radius: 8px; 
     }
 
+    .nav-link.active{
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+    #navbarNav{
+        background-color: #fff;
+    }
+
+    .container-fluid{
+        padding: 0px;
+    }
+
    
 }
 
@@ -31,6 +45,7 @@
         font-size: 8vw;
         margin: 0;
         font-family: 'EB Garamond', serif;
+
     }
 
     #logo{
@@ -54,7 +69,13 @@
         font-size: 25px; 
         text-decoration: underline;
         text-align: center;
-        
+        font-family: 'EB Garamond', serif;
+    }
+    
+    .parrafo2{
+        font-size: 25px; 
+        text-align: center;
+        font-family: 'EB Garamond', serif;
     }
     
     .productos{
@@ -63,7 +84,9 @@
         height: 27vw;
         border-radius: 8px;
         margin-bottom: 25px;
+        
     }
+
 
     .containersubmenu{
         justify-content: space-between;
@@ -77,7 +100,7 @@
     }
 
     .columna {
-        background-color: #ebae2c; 
+        background-color: #b87511; 
         padding: 10px; /* Espaciado interno de 10px */
         border-radius: 5px; /* Bordes redondeados */
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra sutil */
@@ -87,8 +110,11 @@
         /* padding: 10px;  */
         /* Relleno interno en cada columna */
         border: 0.5px solid #ddd;
+        font-family: 'EB Garamond', serif;
+        font-size: 25px;
     }
 
+    
     /* Cambia el color de fondo al pasar el ratón sobre los elementos */
     .columna:hover {
         background-color: #d47a12; /* Cambia el fondo al pasar el ratón */
@@ -105,10 +131,24 @@
         margin: 0px;
     }
 
+    
     .alberto{
         margin: 0px;
     }
-      
     
+    .container-fluid{
+        background-color: #b87511;
+
+    }
+
+    .navbar{
+        padding: 0px;
+        margin-bottom: 10px;
+    }
+    
+    .nav-link{
+        font-size: 35px;
+        font-family: 'EB Garamond', serif;
+    }
   
 

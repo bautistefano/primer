@@ -119,6 +119,7 @@
         font-size: 25px;
     }
 
+
     
     /* Cambia el color de fondo al pasar el ratón sobre los elementos */
     .columna:hover {
@@ -132,10 +133,11 @@
 
     .container{
         padding: 0px;
-        min-width: 100vw!important;
+        min-width: 100%!important;
         margin: 0px;
     }
 
+    
     
     .alberto{
         margin: 0px;
@@ -143,12 +145,14 @@
     
     .container-fluid{
         background-color: #b87511;
+        padding: 0px;
 
     }
 
     .navbar{
         padding: 0px;
         margin-bottom: 10px;
+        
     }
     
     .nav-link{

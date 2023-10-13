@@ -67,7 +67,7 @@
     .productos{
         text-align: center;
         margin: auto;
-        background-color: #A76726;
+        background-color: #773525;
         margin-bottom: 0px;
         max-height: 100%;
         
@@ -122,13 +122,13 @@
     
     /* Cambia el color de fondo al pasar el ratón sobre los elementos */
     .columna:hover {
-        background-color: #d47a12; /* Cambia el fondo al pasar el ratón */
+        background-color: #773525; /* Cambia el fondo al pasar el ratón */
         color: #fff; /* Cambia el color de texto a blanco */
     }   
     
     .footer{
         margin-top: 15px;
-        background-color: #883801;
+        background-color: #996B42   ;
     }
 
     .container{
@@ -146,7 +146,7 @@
     }
     
     .container-fluid{
-        background-color: #591F0B;
+        background-color: #996B42;
         padding: 0px;
 
     }

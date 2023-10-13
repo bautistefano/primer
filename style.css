@@ -1,31 +1,7 @@
-@media only screen and (max-width: 992px){
-    
-    .productos{
-        text-align: center;
-        margin: auto;
-        height: 27vw;
-        border-radius: 8px; 
-    }
 
-    .nav-link.active{
-        font-size: 20px;
-        text-align: center;
-
-    }
-
-    #navbarNav{
-        background-color: #fff;
-    }
-
-    .container-fluid{
-        padding: 0px;
-    }
-
-   
-}
 
     body{
-        background-color:#ffffbf;
+        background-color:#DEB887;
         margin: 0px;    
     }
     
@@ -46,6 +22,10 @@
         
     }
     
+    .descripcion{
+        background-color: pink;
+    }
+
     .tradicion{
         font-size: 8vw;
         margin: 0;
@@ -81,16 +61,26 @@
         font-size: 25px; 
         text-align: center;
         font-family: 'EB Garamond', serif;
+        margin: 0px;
     }
+    
     
     .productos{
         text-align: center;
         margin: auto;
-        height: 27vw;
-        border-radius: 8px;
-        margin-bottom: 25px;
+        background-color: white;
+        margin-bottom: 0px;
+        max-height: 100%;
         
     }
+    .productos1{
+        text-align: center;
+
+        border-radius: 30px;
+        padding: 12px;
+        width: 33%;
+    }
+
 
 
     .containersubmenu{
@@ -111,14 +101,24 @@
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra sutil */
         cursor: pointer; /* Cambia el cursor al pasar el ratón */
         transition: background-color 0.3s; /* Transición suave para el cambio de color de fondo */
-        margin-bottom: 20px; /* Espacio entre las columnas */
+        margin-bottom: 0px; /* Espacio entre las columnas */
         /* padding: 10px;  */
         /* Relleno interno en cada columna */
         border: 0.5px solid #ddd;
         font-family: 'EB Garamond', serif;
         font-size: 25px;
+        align-items: center;
+        
     }
 
+    .col{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+  
 
     
     /* Cambia el color de fondo al pasar el ratón sobre los elementos */
@@ -141,10 +141,12 @@
     
     .alberto{
         margin: 0px;
+        background-color: black;
+        align-items: center;
     }
     
     .container-fluid{
-        background-color: #b87511;
+        background-color: #591F0B;
         padding: 0px;
 
     }
@@ -161,3 +163,34 @@
     }
   
 
+    @media only screen and (max-width: 700px){
+    
+        .productos{
+            text-align: center;
+            margin: auto;
+
+            border-radius: 8px; 
+           
+        }
+
+        .productos1{
+            width: 51%;
+        }
+       
+       
+        .nav-link.active{
+            font-size: 20px;
+            text-align: center;
+    
+        }
+    
+        #navbarNav{
+            background-color: #fff;
+        }
+    
+        .container-fluid{
+            padding: 0px;
+        }
+    
+       
+    }

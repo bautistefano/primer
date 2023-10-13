@@ -23,7 +23,7 @@
     }
     
     .descripcion{
-        background-color: pink;
+        background-color: #996B42;
     }
 
     .tradicion{
@@ -52,7 +52,6 @@
     
     .parrafo1{
         font-size: 25px; 
-        text-decoration: underline;
         text-align: center;
         font-family: 'EB Garamond', serif;
     }
@@ -68,7 +67,7 @@
     .productos{
         text-align: center;
         margin: auto;
-        background-color: white;
+        background-color: #A76726;
         margin-bottom: 0px;
         max-height: 100%;
         
@@ -129,6 +128,7 @@
     
     .footer{
         margin-top: 15px;
+        background-color: #883801;
     }
 
     .container{
@@ -141,7 +141,7 @@
     
     .alberto{
         margin: 0px;
-        background-color: black;
+        background-color: C3B091;
         align-items: center;
     }
     
@@ -176,8 +176,14 @@
         .productos1{
             width: 51%;
         }
-       
-       
+        
+        .col{
+            width: 51%;
+        }
+        
+        .alberto{
+            justify-content: center;
+        }
         .nav-link.active{
             font-size: 20px;
             text-align: center;

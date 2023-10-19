@@ -62,7 +62,7 @@
         text-align: center;
         font-family: 'EB Garamond', serif;
         margin: 0px;
-        
+        color: white
     }
     
     
@@ -119,6 +119,12 @@
         padding: 20px;
     }
 
+    .col2{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
   
 
     
@@ -185,6 +191,11 @@
             width: 51%;
         }
         
+        .col2{
+            width: 51%;
+            padding-top: 0px;
+        }
+
         .alberto{
             justify-content: center;
         }

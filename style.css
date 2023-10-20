@@ -24,6 +24,7 @@
     
     .descripcion{
         background-color: #996B42;
+        margin-top: 15px;
     }
 
     .tradicion{
@@ -37,13 +38,6 @@
         height:  8vw;
         margin-right: 6vw;
     }
-    
-    
-    
-    .fotosnav{
-        height: 22vw;
-    }
-
 
     #Logo{
         height: 100px;
@@ -72,6 +66,7 @@
         background-color: #773525;
         margin-bottom: 0px;
         max-height: 100%;
+        margin-top:  10px;
         
     }
     .productos1{
@@ -88,13 +83,20 @@
         justify-content: space-between;
     }
     
-    .custom-carousel {
-        width: 25%; 
+    /* .custom-carousel {
+        width: 60%; 
         height: auto; 
         margin: auto;
         margin-bottom: 15px;
+    } */
+    .carousel .carousel-item  {
+        height: 200px;
+
     }
 
+    .carouse-control-prev { height: 3000px;}
+    .carousel-control-next{ height: 300px;}
+    
     .columna {
         background-color: #b87511; 
         padding: 10px; /* Espaciado interno de 10px */
@@ -144,9 +146,7 @@
         min-width: 100%!important;
         margin: 0px;
     }
-
-    
-    
+  
     .alberto{
         margin: 0px;
         background-color: C3B091;
@@ -162,17 +162,17 @@
     .navbar{
         padding: 0px;
         margin-bottom: 10px;
-        
     }
     
     .nav-link{
         font-size: 35px;
         font-family: 'EB Garamond', serif;
     }
-  
+    
 
     @media only screen and (max-width: 700px){
-    
+
+        
         .productos{
             text-align: center;
             margin: auto

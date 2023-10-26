@@ -22,9 +22,14 @@
         
     }
     
+    #fotoportada{
+        display: none;
+    }
+    
     .descripcion{
         background-color: #996B42;
         margin-top: 15px;
+        margin-bottom: 15px;
     }
 
     .tradicion{
@@ -49,6 +54,7 @@
         text-align: center;
         font-family: 'EB Garamond', serif;
         color: white
+    
     }
     
     .parrafo2{
@@ -66,7 +72,7 @@
         background-color: #773525;
         margin-bottom: 0px;
         max-height: 100%;
-        margin-top:  10px;
+
         
     }
     .productos1{
@@ -83,19 +89,9 @@
         justify-content: space-between;
     }
     
-    /* .custom-carousel {
-        width: 60%; 
-        height: auto; 
-        margin: auto;
-        margin-bottom: 15px;
-    } */
-    .carousel .carousel-item  {
-        height: 200px;
+    
 
-    }
-
-    .carouse-control-prev { height: 3000px;}
-    .carousel-control-next{ height: 300px;}
+    
     
     .columna {
         background-color: #b87511; 
@@ -161,7 +157,6 @@
 
     .navbar{
         padding: 0px;
-        margin-bottom: 10px;
     }
     
     .nav-link{
@@ -172,7 +167,13 @@
 
     @media only screen and (max-width: 700px){
 
-        
+        #fotoportada{
+            display:contents;
+        }
+
+        .descripcion{
+            margin: 0px;
+        }
         .productos{
             text-align: center;
             margin: auto
@@ -212,6 +213,12 @@
         .container-fluid{
             padding: 0px;
         }
+
+        .carousel .carousel-item  {
+            height: auto;
+    
+        }
+
     
        
     }

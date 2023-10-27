@@ -22,14 +22,22 @@
         
     }
     
+
+    #AAA{
+        background-color: #DEB887;
+        display: inline-block;
+        padding: 20px 20px 20px 10px;
+        border-radius: 50px;
+
+    }
     #fotoportada{
         display: none;
     }
     
     .descripcion{
         background-color: #996B42;
-        margin-top: 15px;
-        margin-bottom: 15px;
+        margin-bottom: 1px;
+        margin-top: 1px;
     }
 
     .tradicion{
@@ -41,13 +49,10 @@
 
     #logo{
         height:  8vw;
-        margin-right: 6vw;
+        
     }
 
-    #Logo{
-        height: 100px;
-        margin-right: 10px;
-    }
+    
     
     .parrafo1{
         font-size: 25px; 
@@ -167,9 +172,16 @@
 
     @media only screen and (max-width: 700px){
 
+        #AAA{
+            padding: 5px;
+            text-align: center;
+        }
+
         #fotoportada{
             display:contents;
         }
+
+        
 
         .descripcion{
             margin: 0px;
